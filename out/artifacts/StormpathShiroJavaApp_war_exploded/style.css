@@ -1,0 +1,14 @@
+.boxODeath {
+    color: #FF0000;
+}
+
+form#loginForm {
+    margin-top: 20px;
+}
+
+div#errorBox {
+    background-color: #ff0000;
+    padding: 20px;
+    color: #fff;
+    font-weight: bold;
+}
