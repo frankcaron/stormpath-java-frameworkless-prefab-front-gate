@@ -31,7 +31,7 @@ public class LoginProcessor {
         Client client = new ClientBuilder().setApiKeyFileLocation(path).build();
         DataStore dataStore = client.getDataStore();
 
-        String href = "https://api.stormpath.com/v1/applications/23nsxyo3G2kY8FtFVC3aFH";
+        String href = "YOUR STORM APPLICATION URL HERE";
         Application application = dataStore.getResource(href, Application.class);
 
         //Request authentication
