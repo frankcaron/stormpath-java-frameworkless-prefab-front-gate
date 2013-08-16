@@ -25,4 +25,14 @@
     <url-pattern>/LoginProcessorServlet</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>RegProcessor</servlet-name>
+        <servlet-class>StormpathShiroJavaApp.Controllers.Registration.RegProcessorServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RegProcessor</servlet-name>
+        <url-pattern>/RegProcessorServlet</url-pattern>
+    </servlet-mapping>
+
 </web-app>
