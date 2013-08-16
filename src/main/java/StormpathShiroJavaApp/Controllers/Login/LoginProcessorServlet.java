@@ -12,67 +12,37 @@ package StormpathShiroJavaApp.Controllers.Login;
  * This Servlet handles the form post and utilizes our authentication and helper classes to process auth.
  */
 
+import com.stormpath.sdk.account.Account;
 import java.io.*;
 import javax.servlet.http.*;
 import javax.servlet.*;
-import com.stormpath.sdk.client.*;
-import com.stormpath.sdk.tenant.Tenant;
-import com.stormpath.sdk.application.*;
-import com.stormpath.sdk.directory.*;
-import com.stormpath.sdk.account.*;
 
 public class LoginProcessorServlet extends HttpServlet {
+
+    private LoginProcessor logginer = new LoginProcessor();
+
     public void doPost (HttpServletRequest req,
                        HttpServletResponse res)
             throws ServletException, IOException
     {
+        //Make auth request
+        Account retrievedAccount = this.logginer.processLogin(req.getParameter("username"), req.getParameter("credential"));
 
+        //Validate auth and redirect as appropriate
+        if (retrievedAccount != null) {
+            //Store the account in the HTTP session
+            HttpSession session = req.getSession();
+            session.setAttribute("Account", retrievedAccount);
 
-        //Process
-        boolean authSuccess = false;
-        LoginProcessor logginer = new LoginProcessor();
-        authSuccess = logginer.processLogin(req.getParameter("username"), req.getParameter("credential"));
-
-        //Target the properties file on my local and connect to STormpath
-        String path = System.getProperty("user.home") + "/.stormpath/apiKey.properties";
-        Client client = new ClientBuilder().setApiKeyFileLocation(path).build();
-
-        Tenant tenant = client.getCurrentTenant();
-        ApplicationList applications = tenant.getApplications();
-        DirectoryList directories = tenant.getDirectories();
-        Directory myDirectory = null;
-
-        //Find the appropriate directory
-        for (Directory tempDirectory : directories) {
-            if (tempDirectory.getName().equals("JavaSampleAppusers")) {
-                myDirectory = tempDirectory;
-            }
-        }
-
-        AccountList users = myDirectory.getAccounts();
-
-        //Test
-        PrintWriter out = res.getWriter();
-        //out.println(req.getParameter("username"));
-        //out.println(path);
-        //out.println(authSuccess)
-
-        out.println("Directory: " + myDirectory.getName());
-        for (Account user : users) {
-            out.println("Username: " + user.getUsername());
-        }
-
-        //Take resulting action
-        if (authSuccess) {
             //Redirect to site page
-            String site = "/main.jsp" ;
+            String site = "/site/main.jsp";
             res.setStatus(res.SC_ACCEPTED);
-            //res.sendRedirect(site);
-        }  else {
+            res.sendRedirect(site);
+        } else {
             //Redirect back to log in page and note the error
-            String site = "/index.jsp?loggedin=false" ;
+            String site = "/index.jsp?session=false";
             res.setStatus(res.SC_UNAUTHORIZED);
-            //res.sendRedirect(site);
+            res.sendRedirect(site);
         }
     }
 }

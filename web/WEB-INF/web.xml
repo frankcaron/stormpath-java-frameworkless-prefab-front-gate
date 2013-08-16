@@ -5,14 +5,34 @@
 		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
            version="2.5">
 
-<servlet> 
-<servlet-name>LoginProcessor</servlet-name> 
-<servlet-class>StormpathShiroJavaApp.Controllers.Login.LoginProcessorServlet</servlet-class>
-</servlet> 
 
-<servlet-mapping> 
-<servlet-name>LoginProcessor</servlet-name> 
-<url-pattern>/LoginProcessorServlet</url-pattern> 
-</servlet-mapping> 
+    <filter>
+        <filter-name>AuthFilter</filter-name>
+        <filter-class>StormpathShiroJavaApp.Controllers.Login.AuthFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AuthFilter</filter-name>
+        <url-pattern>/site/*</url-pattern>
+    </filter-mapping>
+
+    <servlet>
+    <servlet-name>LoginProcessor</servlet-name>
+    <servlet-class>StormpathShiroJavaApp.Controllers.Login.LoginProcessorServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+    <servlet-name>LoginProcessor</servlet-name>
+    <url-pattern>/LoginProcessorServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegProcessor</servlet-name>
+        <servlet-class>StormpathShiroJavaApp.Controllers.Registration.RegProcessorServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RegProcessor</servlet-name>
+        <url-pattern>/RegProcessorServlet</url-pattern>
+    </servlet-mapping>
 
 </web-app>

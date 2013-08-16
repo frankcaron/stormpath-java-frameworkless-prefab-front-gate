@@ -6,21 +6,42 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" name="Default" comment="" />
+    <list default="true" id="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Login/AuthFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Registration/RegProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Registration/RegProcessorServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/site/logout.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/site/main.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/main.jsp" afterPath="$PROJECT_DIR$/web/register.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/style.css" afterPath="$PROJECT_DIR$/web/static/style/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Login/LoginProcessor.java" afterPath="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Login/LoginProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Login/LoginProcessorServlet.java" afterPath="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Login/LoginProcessorServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StormpathShiroJavaApp.iml" afterPath="$PROJECT_DIR$/StormpathShiroJavaApp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/StormpathShiroJavaApp_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/StormpathShiroJavaApp_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="StormpathShiroJavaApp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.jsp" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376434118040" ignored="false" />
+    <file path="/index.jsp" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376614470646" ignored="false" />
     <file path="/HelloWorld.java" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376426795179" ignored="false" />
     <file path="/style.css" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376430271892" ignored="false" />
-    <file path="/main.jsp" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376431539883" ignored="false" />
-    <file path="/LoginProcessor.java" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376434241193" ignored="false" />
-    <file path="/LoginProcessorServlet.java" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376445144082" ignored="false" />
+    <file path="/main.jsp" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376611103959" ignored="false" />
+    <file path="/LoginProcessor.java" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376603814053" ignored="false" />
+    <file path="/LoginProcessorServlet.java" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376604506979" ignored="false" />
     <file path="/StormpathShiroJavaApp.iml" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376432023736" ignored="false" />
-    <file path="$PROJECT_DIR$/web/WEB-INF/web.xml" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376434308880" ignored="false" />
     <file path="/RSSFeed.java" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376434288111" ignored="false" />
-    <file path="/fragment.java" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376434375095" ignored="false" />
-    <file path="/Dummy.txt" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376441442248" ignored="false" />
+    <file path="/fragment.java" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376623988027" ignored="false" />
+    <file path="/Dummy.txt" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376628275117" ignored="false" />
     <file path="/pom.xml" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376440451051" ignored="false" />
+    <file path="/logout.jsp" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376604926193" ignored="false" />
+    <file path="/AuthFilter.java" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376629015650" ignored="false" />
+    <file path="/web.xml" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376629205169" ignored="false" />
+    <file path="/register.jsp" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376629256871" ignored="false" />
+    <file path="/RegProcessorServlet.java" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376629273063" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,13 +102,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoginProcessorServlet.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RegProcessorServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Registration/RegProcessorServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="8" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegProcessor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Registration/RegProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="4" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginProcessorServlet.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Login/LoginProcessorServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="41" selection-start="1775" selection-end="1775" vertical-scroll-proportion="0.53594774">
+            <state line="37" column="33" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthFilter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Login/AuthFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="5" selection-start="2085" selection-end="2085" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RSSFeed.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Models/RSS/RSSFeed.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="13" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/register.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="66" selection-start="1591" selection-end="1591" vertical-scroll-proportion="-23.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="34" selection-start="1162" selection-end="1162" vertical-scroll-proportion="-9.777778">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginProcessor.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Login/LoginProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="29" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.35897437">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logout.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/site/logout.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="4" selection-start="958" selection-end="958" vertical-scroll-proportion="-21.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="7" selection-start="153" selection-end="1504" vertical-scroll-proportion="-12.791667">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,7 +211,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/stormpath-sdk-java" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -110,22 +221,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/StormpathShiroJavaApp/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/web/style.css" />
-        <option value="$PROJECT_DIR$/web/main.jsp" />
-        <option value="$PROJECT_DIR$/StormpathShiroJavaApp.iml" />
-        <option value="$PROJECT_DIR$/src/StormpathShiroJavaApp/LoginProcessor.java" />
-        <option value="$PROJECT_DIR$/src/StormpathShiroJavaApp/LoginProcessorServlet.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/StormpathShiroJavaApp/Login/LoginProcessor.java" />
-        <option value="$PROJECT_DIR$/src/StormpathShiroJavaApp/Login/LoginProcessorServlet.java" />
-        <option value="$PROJECT_DIR$/src/StormpathShiroJavaApp/Model/RSSFeed.java" />
-        <option value="$PROJECT_DIR$/src/StormpathShiroJavaApp/Models/RSSFeed.java" />
-        <option value="$PROJECT_DIR$/src/StormpathShiroJavaApp/Controllers/RSS/RSSLibrarian.java" />
-        <option value="$PROJECT_DIR$/src/StormpathShiroJavaApp/Controllers/Login/LoginProcessorServlet.java" />
         <option value="$USER_HOME$/.m2/settings.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Login/LoginProcessor.java" />
+        <option value="$PROJECT_DIR$/web/logout.jsp" />
+        <option value="$PROJECT_DIR$/web/main.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Login/LoginProcessorServlet.java" />
+        <option value="$PROJECT_DIR$/web/site/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Login/RegProcessorServlet.java" />
+        <option value="$PROJECT_DIR$/web/site/logout.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Login/AuthFilter.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Registration/RegProcessorServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Registration/RegProcessor.java" />
       </list>
     </option>
   </component>
@@ -172,11 +283,12 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
     <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="874" />
+    <option name="width" value="1366" />
+    <option name="height" value="742" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -185,7 +297,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -233,6 +345,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StormpathShiroJavaApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StormpathShiroJavaApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StormpathShiroJavaApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StormpathShiroJavaApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StormpathShiroJavaApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StormpathShiroJavaApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -278,6 +440,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="StormpathShiroJavaApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RSS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StormpathShiroJavaApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StormpathShiroJavaApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StormpathShiroJavaApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -311,7 +507,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="RSS" />
+              <option name="myItemId" value="Registration" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -360,11 +556,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$USER_HOME$/stormpath-spring-samples" />
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/stormpath-sdk-java" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="stormpathshirojavaapp" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -376,7 +572,7 @@
     <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="options.lastSelected" value="MavenSettings" />
+    <property name="options.lastSelected" value="preferences.applicationServers" />
     <property name="project.structure.side.proportion" value="0.26285046" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -385,6 +581,16 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="StormpathShiroJavaApp.Controllers.Login" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/site" />
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF/jsp" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF/static/style" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="StormpathShiroJavaApp.Controllers.RSS" />
     </key>
@@ -392,6 +598,7 @@
   <component name="RunManager" selected="Tomcat Server.index.jsp">
     <configuration default="false" name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="StormpathShiroJavaApp:war exploded">
@@ -473,12 +680,83 @@
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GriffonRunConfigurationType" factoryName="Griffon">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="true" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -509,19 +787,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -535,13 +800,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -565,70 +823,15 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0">
-      <option name="UPDATING_POLICY" value="restart-server" />
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
       <deployment />
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_StormpathShiroJavaApp" />
-      </server-settings>
+      <server-settings />
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Cover" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="61107" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
       <method />
     </configuration>
     <list size="1">
@@ -671,8 +874,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
-    <editor active="false" />
+    <frame x="-1" y="22" width="1366" height="742" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.41379312" order="3" side_tool="false" content_ui="tabs" />
@@ -685,7 +888,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32475883" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -693,8 +896,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.64588857" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33070302" sideWeight="0.64588857" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3541114" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34924242" sideWeight="0.6463022" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35369775" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -767,311 +970,122 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/RSS/RSSLibrarian.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Registration/RegProcessorServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="236" selection-end="236" vertical-scroll-proportion="0.35947713">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Models/RSS/RSSFeed.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Registration/RegProcessorServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="82" selection-start="282" selection-end="282" vertical-scroll-proportion="0.52287585">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Registration/RegProcessorServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/RSS/RSSLibrarian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="219" selection-end="219" vertical-scroll-proportion="0.18543956" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="3" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/site/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="44" selection-start="964" selection-end="964" vertical-scroll-proportion="0.7586207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/site/logout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="4" selection-start="958" selection-end="958" vertical-scroll-proportion="-21.875">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="40" selection-start="935" selection-end="935" vertical-scroll-proportion="0.86206895" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/stormpath-sdk-java/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.935484" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/stormpath/sdk/stormpath-sdk-api/0.7.0/stormpath-sdk-api-0.7.0.jar!/com/stormpath/sdk/client/Client.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="167" selection-end="167" vertical-scroll-proportion="0.16864608" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/stormpath/sdk/stormpath-sdk-api/0.7.0/stormpath-sdk-api-0.7.0-sources.jar!/com/stormpath/sdk/client/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="13" selection-start="2009" selection-end="2009" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/stormpath/sdk/stormpath-sdk-api/0.7.0/stormpath-sdk-api-0.7.0-sources.jar!/com/stormpath/sdk/client/ClientBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="11" selection-start="2165" selection-end="2165" vertical-scroll-proportion="0.12636165">
-          <folding>
-            <element signature="e#0#15963#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/stormpath-sdk-java/api/src/main/java/com/stormpath/sdk/client/ClientApplicationBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="270" column="11" selection-start="12331" selection-end="12331" vertical-scroll-proportion="8.484163" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StormpathShiroJavaApp.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="66" selection-start="690" selection-end="690" vertical-scroll-proportion="0.516129" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Login/LoginProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="59" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
+        <state line="39" column="7" selection-start="153" selection-end="1504" vertical-scroll-proportion="-12.791667">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.m2/settings.xml">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="278" selection-end="278" vertical-scroll-proportion="0.16393442">
+        <state line="33" column="34" selection-start="1162" selection-end="1162" vertical-scroll-proportion="-9.777778">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="uml://MODULES/mdl-StormpathShiroJavaApp">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MODULES</ID>
-          <OriginalElement>mdl-StormpathShiroJavaApp</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">mdl-StormpathShiroJavaApp</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="118.5" y="1.5" />
-          <SelectedNodes>
-            <node>mdl-StormpathShiroJavaApp</node>
-          </SelectedNodes>
-          <Categories />
-        </state>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
       </provider>
     </entry>
-    <entry file="uml://MAVEN/com.stormpath.sdk:stormpath-sdk-impl:0.9.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.stormpath.sdk:stormpath-sdk-impl:0.9.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="300.0" y="320.0">org.testng:testng:jar:6.8/org.yaml:snakeyaml:jar:1.6</node>
-            <node x="323.0" y="440.0">org.easymock:easymock:jar:3.1/org.objenesis:objenesis:jar:1.2</node>
-            <node x="196.0" y="80.0">org.codehaus.jackson:jackson-mapper-asl:jar:1.9.11</node>
-            <node x="361.0" y="160.0">ch.qos.logback:logback-classic:jar:1.0.7/org.slf4j:slf4j-api:jar:1.6.6</node>
-            <node x="196.0" y="0.0">com.stormpath.sdk:stormpath-sdk-api:jar:0.9.0-SNAPSHOT</node>
-            <node x="300.0" y="200.0">org.testng:testng:jar:6.8/junit:junit:jar:4.10</node>
-            <node x="196.0" y="200.0">org.testng:testng:jar:6.8</node>
-            <node x="323.0" y="400.0">org.easymock:easymock:jar:3.1/cglib:cglib-nodep:jar:2.2.2</node>
-            <node x="393.0" y="200.0">org.testng:testng:jar:6.8/junit:junit:jar:4.10/org.hamcrest:hamcrest-core:jar:1.1</node>
-            <node x="196.0" y="400.0">org.easymock:easymock:jar:3.1</node>
-            <node x="383.0" y="0.0">com.stormpath.sdk:stormpath-sdk-api:jar:0.9.0-SNAPSHOT/org.slf4j:slf4j-api:jar:1.6.6</node>
-            <node x="300.0" y="280.0">org.testng:testng:jar:6.8/com.beust:jcommander:jar:1.27</node>
-            <node x="196.0" y="120.0">ch.qos.logback:logback-classic:jar:1.0.7</node>
-            <node x="390.0" y="80.0">org.codehaus.jackson:jackson-mapper-asl:jar:1.9.11/org.codehaus.jackson:jackson-core-asl:jar:1.9.11</node>
-            <node x="196.0" y="40.0">org.slf4j:slf4j-api:jar:1.6.6</node>
-            <node x="300.0" y="240.0">org.testng:testng:jar:6.8/org.beanshell:bsh:jar:2.0b4</node>
-            <node x="0.0" y="0.0">com.stormpath.sdk:stormpath-sdk-impl:0.9.0-SNAPSHOT</node>
-            <node x="196.0" y="360.0">org.codehaus.groovy:groovy-all:jar:1.8.8</node>
-            <node x="361.0" y="120.0">ch.qos.logback:logback-classic:jar:1.0.7/ch.qos.logback:logback-core:jar:1.0.7</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.stormpath.sdk:stormpath-sdk-impl:0.9.0-SNAPSHOT" target="com.stormpath.sdk:stormpath-sdk-api:jar:0.9.0-SNAPSHOT">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.testng:testng:jar:6.8/junit:junit:jar:4.10" target="org.testng:testng:jar:6.8/junit:junit:jar:4.10/org.hamcrest:hamcrest-core:jar:1.1">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.testng:testng:jar:6.8" target="org.testng:testng:jar:6.8/com.beust:jcommander:jar:1.27">
-              <point x="0.0" y="0.0" />
-              <point x="233.0" y="295.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.testng:testng:jar:6.8" target="org.testng:testng:jar:6.8/org.yaml:snakeyaml:jar:1.6">
-              <point x="0.0" y="0.0" />
-              <point x="233.0" y="335.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="ch.qos.logback:logback-classic:jar:1.0.7" target="ch.qos.logback:logback-classic:jar:1.0.7/org.slf4j:slf4j-api:jar:1.6.6">
-              <point x="0.0" y="0.0" />
-              <point x="263.5" y="175.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="ch.qos.logback:logback-classic:jar:1.0.7" target="ch.qos.logback:logback-classic:jar:1.0.7/ch.qos.logback:logback-core:jar:1.0.7">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.easymock:easymock:jar:3.1" target="org.easymock:easymock:jar:3.1/cglib:cglib-nodep:jar:2.2.2">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.easymock:easymock:jar:3.1" target="org.easymock:easymock:jar:3.1/org.objenesis:objenesis:jar:1.2">
-              <point x="0.0" y="0.0" />
-              <point x="244.5" y="455.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.stormpath.sdk:stormpath-sdk-impl:0.9.0-SNAPSHOT" target="org.codehaus.jackson:jackson-mapper-asl:jar:1.9.11">
-              <point x="0.0" y="0.0" />
-              <point x="83.0" y="95.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.testng:testng:jar:6.8" target="org.testng:testng:jar:6.8/org.beanshell:bsh:jar:2.0b4">
-              <point x="0.0" y="0.0" />
-              <point x="233.0" y="255.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.testng:testng:jar:6.8" target="org.testng:testng:jar:6.8/junit:junit:jar:4.10">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.stormpath.sdk:stormpath-sdk-impl:0.9.0-SNAPSHOT" target="org.testng:testng:jar:6.8">
-              <point x="0.0" y="0.0" />
-              <point x="83.0" y="215.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.stormpath.sdk:stormpath-sdk-impl:0.9.0-SNAPSHOT" target="org.easymock:easymock:jar:3.1">
-              <point x="0.0" y="0.0" />
-              <point x="83.0" y="415.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.stormpath.sdk:stormpath-sdk-impl:0.9.0-SNAPSHOT" target="ch.qos.logback:logback-classic:jar:1.0.7">
-              <point x="0.0" y="0.0" />
-              <point x="83.0" y="135.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.stormpath.sdk:stormpath-sdk-impl:0.9.0-SNAPSHOT" target="org.codehaus.groovy:groovy-all:jar:1.8.8">
-              <point x="0.0" y="0.0" />
-              <point x="83.0" y="375.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.stormpath.sdk:stormpath-sdk-impl:0.9.0-SNAPSHOT" target="org.slf4j:slf4j-api:jar:1.6.6">
-              <point x="0.0" y="0.0" />
-              <point x="83.0" y="55.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.stormpath.sdk:stormpath-sdk-api:jar:0.9.0-SNAPSHOT" target="com.stormpath.sdk:stormpath-sdk-api:jar:0.9.0-SNAPSHOT/org.slf4j:slf4j-api:jar:1.6.6">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.codehaus.jackson:jackson-mapper-asl:jar:1.9.11" target="org.codehaus.jackson:jackson-mapper-asl:jar:1.9.11/org.codehaus.jackson:jackson-core-asl:jar:1.9.11">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.7877551020408163" x="267.0" y="264.1968911917098" />
-          <SelectedNodes>
-            <node>com.stormpath.sdk:stormpath-sdk-impl:0.9.0-SNAPSHOT</node>
-          </SelectedNodes>
-          <Categories />
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/groupId:StormpathShiroJavaApp:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>groupId:StormpathShiroJavaApp:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">groupId:StormpathShiroJavaApp:1.0-SNAPSHOT</node>
-            <node x="440.0" y="40.0">com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/com.stormpath.sdk:stormpath-sdk-impl:jar:0.7.0</node>
-            <node x="440.0" y="240.0">com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/org.slf4j:jcl-over-slf4j:jar:1.6.6</node>
-            <node x="636.0" y="120.0">com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/com.stormpath.sdk:stormpath-sdk-impl:jar:0.7.0/org.codehaus.jackson:jackson-mapper-asl:jar:1.9.11</node>
-            <node x="211.0" y="40.0">com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0</node>
-            <node x="636.0" y="40.0">com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/com.stormpath.sdk:stormpath-sdk-impl:jar:0.7.0/com.stormpath.sdk:stormpath-sdk-api:jar:0.7.0</node>
-            <node x="565.0" y="200.0">com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/org.apache.httpcomponents:httpclient:jar:4.2.2/commons-codec:commons-codec:jar:1.6</node>
-            <node x="440.0" y="160.0">com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/org.apache.httpcomponents:httpclient:jar:4.2.2</node>
-            <node x="830.0" y="120.0">com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/com.stormpath.sdk:stormpath-sdk-impl:jar:0.7.0/org.codehaus.jackson:jackson-mapper-asl:jar:1.9.11/org.codehaus.jackson:jackson-core-asl:jar:1.9.11</node>
-            <node x="590.0" y="240.0">com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/org.slf4j:jcl-over-slf4j:jar:1.6.6/org.slf4j:slf4j-api:jar:1.6.6</node>
-            <node x="565.0" y="160.0">com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/org.apache.httpcomponents:httpclient:jar:4.2.2/org.apache.httpcomponents:httpcore:jar:4.2.2</node>
-            <node x="636.0" y="80.0">com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/com.stormpath.sdk:stormpath-sdk-impl:jar:0.7.0/org.slf4j:slf4j-api:jar:1.6.6</node>
-            <node x="211.0" y="0.0">com.stormpath.sdk:stormpath-sdk-api:jar:0.7.0</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/org.slf4j:jcl-over-slf4j:jar:1.6.6" target="com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/org.slf4j:jcl-over-slf4j:jar:1.6.6/org.slf4j:slf4j-api:jar:1.6.6">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0" target="com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/org.slf4j:jcl-over-slf4j:jar:1.6.6">
-              <point x="0.0" y="0.0" />
-              <point x="310.5" y="255.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0" target="com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/org.apache.httpcomponents:httpclient:jar:4.2.2">
-              <point x="0.0" y="0.0" />
-              <point x="310.5" y="175.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="groupId:StormpathShiroJavaApp:1.0-SNAPSHOT" target="com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0">
-              <point x="0.0" y="0.0" />
-              <point x="90.5" y="55.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="groupId:StormpathShiroJavaApp:1.0-SNAPSHOT" target="com.stormpath.sdk:stormpath-sdk-api:jar:0.7.0">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/com.stormpath.sdk:stormpath-sdk-impl:jar:0.7.0/org.codehaus.jackson:jackson-mapper-asl:jar:1.9.11" target="com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/com.stormpath.sdk:stormpath-sdk-impl:jar:0.7.0/org.codehaus.jackson:jackson-mapper-asl:jar:1.9.11/org.codehaus.jackson:jackson-core-asl:jar:1.9.11">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0" target="com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/com.stormpath.sdk:stormpath-sdk-impl:jar:0.7.0">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/org.apache.httpcomponents:httpclient:jar:4.2.2" target="com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/org.apache.httpcomponents:httpclient:jar:4.2.2/org.apache.httpcomponents:httpcore:jar:4.2.2">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/com.stormpath.sdk:stormpath-sdk-impl:jar:0.7.0" target="com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/com.stormpath.sdk:stormpath-sdk-impl:jar:0.7.0/com.stormpath.sdk:stormpath-sdk-api:jar:0.7.0">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/com.stormpath.sdk:stormpath-sdk-impl:jar:0.7.0" target="com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/com.stormpath.sdk:stormpath-sdk-impl:jar:0.7.0/org.codehaus.jackson:jackson-mapper-asl:jar:1.9.11">
-              <point x="0.0" y="0.0" />
-              <point x="523.0" y="135.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/com.stormpath.sdk:stormpath-sdk-impl:jar:0.7.0" target="com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/com.stormpath.sdk:stormpath-sdk-impl:jar:0.7.0/org.slf4j:slf4j-api:jar:1.6.6">
-              <point x="0.0" y="0.0" />
-              <point x="523.0" y="95.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/org.apache.httpcomponents:httpclient:jar:4.2.2" target="com.stormpath.sdk:stormpath-sdk-httpclient:jar:0.7.0/org.apache.httpcomponents:httpclient:jar:4.2.2/commons-codec:commons-codec:jar:1.6">
-              <point x="0.0" y="0.0" />
-              <point x="487.5" y="215.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.47585513078470826" x="487.0" y="194.892177589852" />
-          <SelectedNodes>
-            <node>groupId:StormpathShiroJavaApp:1.0-SNAPSHOT</node>
-          </SelectedNodes>
-          <Categories />
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/web/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="3" selection-start="695" selection-end="695" vertical-scroll-proportion="0.6">
+        <state line="45" column="66" selection-start="1591" selection-end="1591" vertical-scroll-proportion="-23.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Login/LoginProcessorServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="41" selection-start="1775" selection-end="1775" vertical-scroll-proportion="0.53594774">
+        <state line="37" column="33" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Login/AuthFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="5" selection-start="2085" selection-end="2085" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Models/RSS/RSSFeed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Registration/RegProcessorServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="8" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Registration/RegProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="4" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Login/LoginProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="29" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.35897437">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1129,7 +1143,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>StormpathShiroJavaApp</last-edited>
+          <last-edited>Web|StormpathShiroJavaApp</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1139,9 +1153,21 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.stormpath.sdk:stormpath-sdk-api:0.7.0</last-edited>
+          <last-edited>Maven: org.slf4j:slf4j-api:1.6.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

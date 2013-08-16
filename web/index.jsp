@@ -6,23 +6,18 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page session="false" %>
 <html>
   <head>
     <title>Stormpath - Sample Shiro Java App</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/style/style.css" />
   </head>
   <body>
-        <%
-            if (request.getParameter("loggedin") != null) {
-                if ((request.getParameter("loggedin")).equals("false")) {
-        %>
-                    <div id="errorBox">
-                        Your log in request failed. Check your credentials, and try again.
-                    </div>
-        <%
-                }
-            }
-        %>
+        <% if (request.getParameter("session") != null) { if (request.getParameter("session").equals("false")) { %>
+             <div id="errorBox">Your log in request failed. Check your credentials, and try again.</div>
+        <% } else if (request.getParameter("session").equals("expired")) { %>
+            <div id="errorBox">Your session has expired. Check your credentials, and try again.</div>
+        <% } } %>
 
         <form id="loginForm" method="post" action="LoginProcessorServlet">
             <table>
