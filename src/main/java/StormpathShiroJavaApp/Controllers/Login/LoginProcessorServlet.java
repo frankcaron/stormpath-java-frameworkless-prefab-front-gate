@@ -12,6 +12,7 @@ package StormpathShiroJavaApp.Controllers.Login;
  * This Servlet handles the form post and utilizes our authentication and helper classes to process auth.
  */
 
+import StormpathShiroJavaApp.Controllers.APICommunicator.APICommunicator;
 import com.stormpath.sdk.account.Account;
 import java.io.*;
 import javax.servlet.http.*;
@@ -19,14 +20,15 @@ import javax.servlet.*;
 
 public class LoginProcessorServlet extends HttpServlet {
 
-    private LoginProcessor logginer = new LoginProcessor();
+    private APICommunicator loginHelper = new APICommunicator();
 
     public void doPost (HttpServletRequest req,
                        HttpServletResponse res)
             throws ServletException, IOException
     {
+
         //Make auth request
-        Account retrievedAccount = this.logginer.processLogin(req.getParameter("username"), req.getParameter("credential"));
+        Account retrievedAccount = this.loginHelper.processLogin(req.getParameter("username"), req.getParameter("credential"));
 
         //Validate auth and redirect as appropriate
         if (retrievedAccount != null) {

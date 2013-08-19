@@ -12,8 +12,9 @@ package StormpathShiroJavaApp.Controllers.Registration;
  * This Servlet handles the form post and utilizes our authentication and helper classes to process auth.
  */
 
-import StormpathShiroJavaApp.Controllers.Login.LoginProcessor;
-import com.stormpath.sdk.account.Account;
+import StormpathShiroJavaApp.Controllers.APICommunicator.APICommunicator;
+import com.stormpath.sdk.account.*;
+import com.stormpath.sdk.directory.*;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -24,12 +25,26 @@ import java.io.IOException;
 
 public class RegProcessorServlet extends HttpServlet {
 
-    private RegProcessor register = new RegProcessor();
+    private APICommunicator regHelper = new APICommunicator();
 
     public void doPost (HttpServletRequest req,
-                       HttpServletResponse res)
+                        HttpServletResponse res)
             throws ServletException, IOException
     {
+        //Make registration request
+        boolean accountCreated = this.regHelper.createAccount(req.getParameterMap());
 
+        //Pass along result
+        if (accountCreated) {
+            //Redirect to reg page and note success
+            String site = "/register.jsp?registration=true";
+            res.setStatus(res.SC_ACCEPTED);
+            res.sendRedirect(site);
+        } else {
+            //Redirect to reg page and note error
+            String site = "/register.jsp?registration=false";
+            res.setStatus(res.SC_BAD_REQUEST);
+            res.sendRedirect(site);
+        }
     }
 }

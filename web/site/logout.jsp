@@ -26,14 +26,15 @@
 <%@ page import="com.stormpath.sdk.account.*" %>
 <html>
 <head>
-    <title>Stormpath - Sample Shiro Java App</title>
+    <title>Stormpath - Sample Shiro App</title>
     <link rel="stylesheet" type="text/css" href="../static/style/style.css" />
 </head>
 <body>
-
-<p>
-    Logging you out...
-</p>
+    <div class="pageContainer">
+        <p>
+            Logging you out...
+        </p>
+    </div>
 
 </body>
 </html>
