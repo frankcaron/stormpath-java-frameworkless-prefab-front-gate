@@ -31,6 +31,7 @@
 </head>
 <body>
     <div class="pageContainer">
+        <div class="logo"><img src="${pageContext.request.contextPath}/static/images/stormpath.jpg" /></div>
         <p>
             Logging you out...
         </p>

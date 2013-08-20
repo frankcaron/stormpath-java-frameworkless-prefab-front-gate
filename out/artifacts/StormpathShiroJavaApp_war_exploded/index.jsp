@@ -14,12 +14,12 @@
   </head>
   <body>
         <div class="pageContainer">
+            <div class="logo"><img src="${pageContext.request.contextPath}/static/images/stormpath.jpg" /></div>
             <% if (request.getParameter("session") != null) { if (request.getParameter("session").equals("false")) { %>
                  <div class="errorBox">Your log in request failed. Check your credentials, and try again.</div>
             <% } else if (request.getParameter("session").equals("expired")) { %>
                 <div class="errorBox">Your session has expired. Check your credentials, and try again.</div>
             <% } } %>
-
             <form class="loginForm" method="post" action="LoginProcessorServlet">
                 <table>
                     <tr>

@@ -8,9 +8,10 @@ import com.stormpath.sdk.authc.UsernamePasswordRequest;
 import com.stormpath.sdk.client.Client;
 import com.stormpath.sdk.client.ClientBuilder;
 import com.stormpath.sdk.ds.DataStore;
+import com.stormpath.sdk.directory.*;
 import com.stormpath.sdk.resource.ResourceException;
-import com.stormpath.sdk.directory.Directory;
 
+import javax.servlet.http.HttpSession;
 import java.util.Map;
 
 /**
@@ -53,6 +54,7 @@ public class APICommunicator {
 
     }
 
+    //Helper function to authenticate an account
     public Account processLogin(String username, String password) {
 
         //Target the properties file on my local and connect to Stormpath
@@ -78,7 +80,8 @@ public class APICommunicator {
 
     }
 
-    public boolean createAccount(Map params) {
+    //Helper function to create an account
+    public String createAccount( Map params) {
 
         //Target the properties file on my local and connect to Stormpath
         String userHome = System.getProperty("user.home");
@@ -87,22 +90,47 @@ public class APICommunicator {
         DataStore dataStore = client.getDataStore();
         Directory directory = client.getDataStore().getResource(this.directoryURL, Directory.class);
 
-        //Request authentication
-        try {
-            System.out.println("Email: " + params.get("email"));
+        //Compose account object
+        Account account = client.getDataStore().instantiate(Account.class);
+        account.setGivenName(((String [])params.get("firstName"))[0]);
+        account.setSurname(((String [])params.get("lastName"))[0]);
+        account.setUsername(((String [])params.get("username"))[0]);
+        account.setEmail(((String [])params.get("email"))[0]);
+        account.setPassword(((String [])params.get("credential"))[0]);
 
-            Account account = client.getDataStore().instantiate(Account.class);
-            account.setGivenName(params.get("firstName").toString());
-            account.setSurname(params.get("lastName").toString());
-            account.setUsername(params.get("username").toString());
-            account.setEmail(params.get("email").toString());
-            account.setPassword(params.get("credential").toString());
+        //Eddit account
+        try {
+            System.out.println("Creating account");
             directory.createAccount(account);
-            return true;
+            return "true";
         } catch (ResourceException name) {
-            System.out.println("Reg error: " + name.getDeveloperMessage());
-            return false;
+            return name.getMessage();
         }
 
+    }
+
+    public Account editAccount(String href, Map params) {
+
+        //Target the properties file on my local and connect to Stormpath
+        String userHome = System.getProperty("user.home");
+        String path = userHome + this.apiKey;
+        Client client = new ClientBuilder().setApiKeyFileLocation(path).build();
+        Account account = client.getDataStore().getResource(href, Account.class);
+
+        //Update the account object
+        account.setGivenName(((String [])params.get("firstName"))[0]);
+        account.setSurname(((String [])params.get("lastName"))[0]);
+        account.setUsername(((String [])params.get("username"))[0]);
+        account.setEmail(((String [])params.get("email"))[0]);
+
+        //Register account
+        try {
+            System.out.println("Saving account");
+            account.save();
+            return account;
+        } catch (ResourceException name) {
+            System.out.println("Error saving edits: " + name.getDeveloperMessage());
+            return null;
+        }
     }
 }

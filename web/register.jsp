@@ -14,10 +14,11 @@
 </head>
 <body>
 <div class="pageContainer">
-        <% if (request.getParameter("registration") != null) { if (request.getParameter("registration").equals("false")) { %>
-    <div class="errorBox">Your registration failed. Please try again.</div>
+    <div class="logo"><img src="${pageContext.request.contextPath}/static/images/stormpath.jpg" /></div>
+        <% if (request.getParameter("registration") != null) { if (request.getParameter("registration").equals("true")) { %>
+    <div class="successBox">Your account was created. Please <a href="/index.jsp">click here</a> to log in.</div>
         <% } else { %>
-    <div class="successBox">Your account was created. Please <a href="login.jsp">click here</a> to log in.</div>
+    <div class="errorBox">Your registration failed. <%=request.getParameter("registration")%></div>
         <% } } %>
     <form id="regForm" method="post" action="RegProcessorServlet">
         <table>

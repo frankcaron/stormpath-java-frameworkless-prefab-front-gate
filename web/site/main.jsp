@@ -16,12 +16,12 @@
 </head>
 <body>
     <div class="pageContainer">
-
+        <div class="logo"><img src="${pageContext.request.contextPath}/static/images/stormpath.jpg" /></div>
         <%
             Account currentUser = (Account)session.getAttribute("Account");
         %>
 
-        <form class="loginForm" method="post" action="LoginProcessorServlet">
+        <form class="loginForm" method="post">
             <table>
                 <tr>
                     <td colspan="2">Welcome to the simple framework-less Java application. Your user information follows.</td>

@@ -1,4 +1,4 @@
-package StormpathShiroJavaApp.Controllers.Login;
+package StormpathShiroJavaApp.Controllers.Edit;
 
 /**
  * Created with IntelliJ IDEA.
@@ -7,7 +7,7 @@ package StormpathShiroJavaApp.Controllers.Login;
  * Time: 3:04 PM
  * To change this template use File | Settings | File Templates.
  *
- * LoginProcessorServlet
+ * EditProcessorServlet
  *
  * This Servlet handles the form post and utilizes our authentication and helper classes to process auth.
  */
@@ -18,24 +18,25 @@ import java.io.*;
 import javax.servlet.http.*;
 import javax.servlet.*;
 
-public class LoginProcessorServlet extends HttpServlet {
+public class EditProcessorServlet extends HttpServlet {
 
-    private APICommunicator loginHelper = new APICommunicator();
+    private APICommunicator editHelper = new APICommunicator();
 
     public void doPost (HttpServletRequest req,
-                       HttpServletResponse res)
+                        HttpServletResponse res)
             throws ServletException, IOException
     {
+        //Fetch the user's account URL
+        HttpSession session = req.getSession();
+        String href = (String)(session.getAttribute("AccountHref"));
 
-        //Make auth request
-        Account retrievedAccount = this.loginHelper.processLogin(req.getParameter("username"), req.getParameter("credential"));
+        //Make edit request
+        Account accountEdited = this.editHelper.editAccount(href, req.getParameterMap());
 
         //Validate auth and redirect as appropriate
-        if (retrievedAccount != null) {
-            //Store the account in the HTTP session
-            HttpSession session = req.getSession();
-            session.setAttribute("Account", retrievedAccount);
-            session.setAttribute("AccountHref", retrievedAccount.getHref());
+        if (accountEdited != null) {
+            //Replace session object
+            session.setAttribute("Account", accountEdited);
 
             //Redirect to site page
             String site = "/site/main.jsp";
@@ -43,9 +44,10 @@ public class LoginProcessorServlet extends HttpServlet {
             res.sendRedirect(site);
         } else {
             //Redirect back to log in page and note the error
-            String site = "/index.jsp?session=false";
-            res.setStatus(res.SC_UNAUTHORIZED);
+            String site = "/site/edit.jsp?edit=false";
+            res.setStatus(res.SC_ACCEPTED);
             res.sendRedirect(site);
         }
+
     }
 }

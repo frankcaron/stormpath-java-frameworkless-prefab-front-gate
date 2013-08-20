@@ -13,14 +13,11 @@ package StormpathShiroJavaApp.Controllers.Registration;
  */
 
 import StormpathShiroJavaApp.Controllers.APICommunicator.APICommunicator;
-import com.stormpath.sdk.account.*;
-import com.stormpath.sdk.directory.*;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 public class RegProcessorServlet extends HttpServlet {
@@ -32,19 +29,11 @@ public class RegProcessorServlet extends HttpServlet {
             throws ServletException, IOException
     {
         //Make registration request
-        boolean accountCreated = this.regHelper.createAccount(req.getParameterMap());
+        String accountCreated = this.regHelper.createAccount(req.getParameterMap());
 
         //Pass along result
-        if (accountCreated) {
-            //Redirect to reg page and note success
-            String site = "/register.jsp?registration=true";
-            res.setStatus(res.SC_ACCEPTED);
-            res.sendRedirect(site);
-        } else {
-            //Redirect to reg page and note error
-            String site = "/register.jsp?registration=false";
-            res.setStatus(res.SC_BAD_REQUEST);
-            res.sendRedirect(site);
-        }
+        String site = "/register.jsp?registration=" + accountCreated;
+        res.setStatus(res.SC_ACCEPTED);
+        res.sendRedirect(site);
     }
 }
