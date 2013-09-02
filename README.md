@@ -1,4 +1,4 @@
-Java Frameworkless
+Java Frameworkless Stormpath Application
 ===============================
 
 A framework-free Java implementation of Stormpath's Java SDK with a simple web application.
@@ -28,7 +28,11 @@ This readme assumes that you have already set up a developer account with Stormp
 1. Clone the repository to your local machine.
 2. Navigate to the cloned directory via the command line.
 3. Run `maven install` to install the dependencies.
-4. Configure the "included application.properties" file
+4. Set the variables in the included "application.properties" file to match your environment
+
+    apiKey = /path/to/yourApiKey
+    applicationURL = http://fullURLtoyourStormpathApplication
+    directoryURL = http://fullURLtoyourStormpathDirectory
 
 5. Configure the password reset page on your directory within the [Stormpath API Console](http://api.stormpath.com) to use the following URL for its Password Reset workflow (Directory > Workflows > Password Reset show link):
 
@@ -40,8 +44,23 @@ This readme assumes that you have already set up a developer account with Stormp
 
 This impl relies on the following, which can all be installed from Rubygems.org using `gem install` individually or by via `bundle`. 
 
-* Stormpath Java SDK
+* [Stormpath Java SDK](https://github.com/stormpath/stormpath-sdk-java)
 * javax.servlet.*
+
+### Design
+
+The application's design relies on plain old Java Servlets and Filters. The project's web.xml file maps out HTTP requests to the various controllers.
+
+The *APICommunicator* controller is the chief shared resource for all of the other controllers. It is responsible for handling all of the instantiation and resource management of Stormpath SDK objects, most importantly the client. It also reads from the 
+
+The rest of the controllers are clearly demarketed: 
+
+* `LoginProcessorServlet` deals with log in and session requests
+* `RegProcessorServlet` deals with account creation
+* `EditProcessorServlet` deals with account updates
+* `ResetProcessorServlet` deals with password resets (both sending out emails and setting new passwords)
+
+Lastly, for security, the `AuthFilter` has been implemeted. This filter is used before all calls to /protected/* which require authentication. 
 
 ### Disclosure
 
