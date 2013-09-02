@@ -38,7 +38,7 @@ This readme assumes that you have already set up a developer account with Stormp
 
 		localhost:8080/reset.jsp
 
-6. Run the app locally by clicking the "build and run" button in your IDE.
+6. Run the app locally by clicking the "build and run" button in your IDE. The generated WAR must be deployed against the appropriate java servlet container (e.g., Tomcat)
 
 ### Dependencies
 
