@@ -7,17 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/static/images/stormpath.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Edit/EditProcessorServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/APICommunicator/APICommunicator.java" afterPath="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/APICommunicator/APICommunicator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Login/LoginProcessorServlet.java" afterPath="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Login/LoginProcessorServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Registration/RegProcessorServlet.java" afterPath="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Registration/RegProcessorServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/site/edit.jsp" afterPath="$PROJECT_DIR$/web/site/edit.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/site/logout.jsp" afterPath="$PROJECT_DIR$/web/site/logout.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/site/main.jsp" afterPath="$PROJECT_DIR$/web/site/main.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/register.jsp" afterPath="$PROJECT_DIR$/web/register.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/style/style.css" afterPath="$PROJECT_DIR$/web/static/style/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_stormpath_sdk_stormpath_sdk_api_0_8_0.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_stormpath_sdk_stormpath_sdk_api_0_7_0.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_stormpath_sdk_stormpath_sdk_httpclient_0_7_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_stormpath_sdk_stormpath_sdk_httpclient_0_8_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_stormpath_sdk_stormpath_sdk_impl_0_7_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_stormpath_sdk_stormpath_sdk_impl_0_8_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/APICommunicator/APICommunicator.java" afterPath="$PROJECT_DIR$/src/main/java/StormpathFrameworklessJavaApp/Controllers/APICommunicator/APICommunicator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Edit/EditProcessorServlet.java" afterPath="$PROJECT_DIR$/src/main/java/StormpathFrameworklessJavaApp/Controllers/Edit/EditProcessorServlet.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Login/AuthFilter.java" afterPath="$PROJECT_DIR$/src/main/java/StormpathFrameworklessJavaApp/Controllers/Login/AuthFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Login/LoginProcessorServlet.java" afterPath="$PROJECT_DIR$/src/main/java/StormpathFrameworklessJavaApp/Controllers/Login/LoginProcessorServlet.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/RSS/RSSLibrarian.java" afterPath="$PROJECT_DIR$/src/main/java/StormpathFrameworklessJavaApp/Controllers/RSS/RSSLibrarian.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Registration/RegProcessorServlet.java" afterPath="$PROJECT_DIR$/src/main/java/StormpathFrameworklessJavaApp/Controllers/Registration/RegProcessorServlet.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Models/RSS/RSSFeed.java" afterPath="$PROJECT_DIR$/src/main/java/StormpathFrameworklessJavaApp/Models/RSS/RSSFeed.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StormpathShiroJavaApp.iml" afterPath="$PROJECT_DIR$/StormpathShiroJavaApp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/StormpathShiroJavaApp_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/StormpathShiroJavaApp_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,10 +33,10 @@
     <file path="/main.jsp" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376931382173" ignored="false" />
     <file path="/LoginProcessor.java" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376939301691" ignored="false" />
     <file path="/LoginProcessorServlet.java" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376962982294" ignored="false" />
-    <file path="/StormpathShiroJavaApp.iml" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376432023736" ignored="false" />
+    <file path="/StormpathShiroJavaApp.iml" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1377064759465" ignored="false" />
     <file path="/RSSFeed.java" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376434288111" ignored="false" />
     <file path="/fragment.java" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376623988027" ignored="false" />
-    <file path="/Dummy.txt" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376930138695" ignored="false" />
+    <file path="/Dummy.txt" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1377882159685" ignored="false" />
     <file path="/pom.xml" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376440451051" ignored="false" />
     <file path="/logout.jsp" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376930865274" ignored="false" />
     <file path="/AuthFilter.java" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376629015650" ignored="false" />
@@ -41,9 +45,12 @@
     <file path="/RegProcessorServlet.java" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376961530388" ignored="false" />
     <file path="/application.properties" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376934291963" ignored="false" />
     <file path="/your.properties" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376934390526" ignored="false" />
-    <file path="/APICommunicator.java" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376963529182" ignored="false" />
+    <file path="/APICommunicator.java" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1377064003902" ignored="false" />
     <file path="/edit.jsp" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376962279623" ignored="false" />
     <file path="/EditProcessorServlet.java" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1376963549929" ignored="false" />
+    <file path="/a.dummy" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1377022538006" ignored="false" />
+    <file path="/a.java" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1377025928956" ignored="false" />
+    <file path="/sample.java" changelist="3990fa17-aefe-4d70-bcb8-ef3d5b876a05" time="1377025934010" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +64,12 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -95,6 +106,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -107,48 +119,98 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/static/style/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="428" column="104" selection-start="9161" selection-end="9161" vertical-scroll-proportion="0.0">
+            <state line="436" column="1" selection-start="9260" selection-end="9260" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/application.properties">
+      <file leaf-file-name="RegProcessorServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StormpathFrameworklessJavaApp/Controllers/Registration/RegProcessorServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="27" selection-end="151" vertical-scroll-proportion="0.0">
+            <state line="22" column="13" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <file leaf-file-name="edit.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/site/edit.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="21" selection-start="1033" selection-end="1033" vertical-scroll-proportion="-13.125">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="APICommunicator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/APICommunicator/APICommunicator.java">
+      <file leaf-file-name="EditProcessorServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StormpathFrameworklessJavaApp/Controllers/Edit/EditProcessorServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="84" selection-start="5034" selection-end="5034" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="20" column="13" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditProcessorServlet.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Edit/EditProcessorServlet.java">
+      <file leaf-file-name="AuthFilter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StormpathFrameworklessJavaApp/Controllers/Login/AuthFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="20" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.5943601">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="54" column="5" selection-start="2093" selection-end="2093" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="APICommunicator.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StormpathFrameworklessJavaApp/Controllers/APICommunicator/APICommunicator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="32" selection-start="100" selection-end="100" vertical-scroll-proportion="0.02617801">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logout.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/site/logout.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="7" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="10" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StormpathShiroJavaApp.iml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StormpathShiroJavaApp.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="62" selection-start="2102" selection-end="2102" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -171,22 +233,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Login/LoginProcessor.java" />
         <option value="$PROJECT_DIR$/src/application.properties" />
         <option value="$PROJECT_DIR$/src/your.properties" />
         <option value="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/APICommunicator/LoginProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Registration/RegProcessorServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Login/LoginProcessorServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/APICommunicator/APICommunicator.java" />
         <option value="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Edit/EditProcessorServlet.java" />
-        <option value="$PROJECT_DIR$/web/site/logout.jsp" />
         <option value="$PROJECT_DIR$/web/register.jsp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/site/edit.jsp" />
         <option value="$PROJECT_DIR$/web/site/main.jsp" />
         <option value="$PROJECT_DIR$/web/static/style/style.css" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/web/site/logout.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/APICommunicator/APICommunicator.java" />
+        <option value="$PROJECT_DIR$/StormpathShiroJavaApp.iml" />
       </list>
     </option>
   </component>
@@ -234,8 +296,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="874" />
+    <option name="width" value="1366" />
+    <option name="height" value="742" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -246,6 +308,12 @@
           </State>
           <State>
             <id>Error handling</id>
+          </State>
+          <State>
+            <id>Performance issues</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
           </State>
         </expanded-state>
         <selected-state>
@@ -272,7 +340,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -283,356 +351,11 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-sample-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-sample-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-web-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-sample-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-web-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-sample-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-web-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-sample-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-web-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-sample-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-web-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-sample-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-web-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-sample-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-web-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-sample-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-web-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-sample-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-web-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StormpathShiroJavaApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-sample-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-web-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StormpathShiroJavaApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-sample-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-web-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StormpathShiroJavaApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Registration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-sample-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-web-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StormpathShiroJavaApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-sample-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-web-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StormpathShiroJavaApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Edit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-sample-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stormpath-shiro-web-app-redux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StormpathShiroJavaApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="APICommunicator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -652,8 +375,8 @@
     <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
-    <property name="project.structure.side.proportion" value="0.26285046" />
+    <property name="options.lastSelected" value="preferences.sourceCode.Java" />
+    <property name="project.structure.side.proportion" value="0.60809475" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -866,7 +589,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
       <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSRemoteDebuggerConfigurationSettings>
       <method />
@@ -943,14 +666,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
+    <frame x="0" y="22" width="1366" height="742" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.41379312" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39920425" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -958,19 +680,20 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32228118" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.6710875" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.64588857" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3469697" sideWeight="0.64951766" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3504823" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34791964" sideWeight="0.6485411" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35145888" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3215434" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1039,32 +762,95 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/StormpathFrameworklessJavaApp/Controllers/Login/LoginProcessorServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="80" selection-start="1644" selection-end="1644" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StormpathFrameworklessJavaApp/Controllers/APICommunicator/APICommunicator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="22" selection-start="1652" selection-end="1652" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="66" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.7382075" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/site/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="46" selection-start="786" selection-end="786" vertical-scroll-proportion="0.3537736" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="49" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.3357453" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/style/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="436" column="1" selection-start="9260" selection-end="9260" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/site/logout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="7" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/site/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="3" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
+        <state line="20" column="10" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Models/RSS/RSSFeed.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/StormpathFrameworklessJavaApp/Controllers/Edit/EditProcessorServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
+        <state line="20" column="13" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/your.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/StormpathFrameworklessJavaApp/Controllers/Login/AuthFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="45" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
+        <state line="54" column="5" selection-start="2093" selection-end="2093" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StormpathFrameworklessJavaApp/Controllers/Login/LoginProcessorServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="80" selection-start="1644" selection-end="1644" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StormpathFrameworklessJavaApp/Controllers/Registration/RegProcessorServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="13" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="58" selection-start="1567" selection-end="1567" vertical-scroll-proportion="-10.518518">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
@@ -1072,99 +858,18 @@
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Registration/RegProcessorServlet.java">
+    <entry file="file://$PROJECT_DIR$/StormpathShiroJavaApp.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="13" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Login/AuthFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="5" selection-start="2085" selection-end="2085" vertical-scroll-proportion="0.7717647">
+        <state line="34" column="62" selection-start="2102" selection-end="2102" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Login/LoginProcessorServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/StormpathFrameworklessJavaApp/Controllers/APICommunicator/APICommunicator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="80" selection-start="1480" selection-end="1480" vertical-scroll-proportion="0.79910713">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="66" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.7382075">
+        <state line="2" column="32" selection-start="100" selection-end="100" vertical-scroll-proportion="0.02617801">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/site/edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="73" selection-start="793" selection-end="793" vertical-scroll-proportion="0.5491991">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/site/logout.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="108" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.48741418">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/site/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="46" selection-start="786" selection-end="786" vertical-scroll-proportion="0.3537736">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="21" selection-start="1033" selection-end="1033" vertical-scroll-proportion="-13.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/style/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="428" column="104" selection-start="9161" selection-end="9161" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="27" selection-end="151" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/APICommunicator/APICommunicator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="84" selection-start="5034" selection-end="5034" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StormpathShiroJavaApp/Controllers/Edit/EditProcessorServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="20" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.5943601">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1178,7 +883,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.26285046" />
+                <option value="0.60809475" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1191,7 +896,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.26285046" />
+                <option value="0.60809475" />
               </list>
             </option>
           </splitter-proportions>
@@ -1202,7 +907,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.26285046" />
+                <option value="0.60809475" />
               </list>
             </option>
           </splitter-proportions>
@@ -1214,7 +919,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.26285046" />
+                <option value="0.60809475" />
               </list>
             </option>
           </splitter-proportions>
@@ -1226,7 +931,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.26285046" />
+                <option value="0.60809475" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1251,7 +956,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.26285046" />
+                <option value="0.60809475" />
               </list>
             </option>
           </splitter-proportions>

@@ -21,16 +21,15 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 7.0" level="application_server_libraries" />
-    <orderEntry type="library" name="Maven: com.stormpath.sdk:stormpath-sdk-api:0.7.0" level="project" />
-    <orderEntry type="library" name="Maven: com.stormpath.sdk:stormpath-sdk-httpclient:0.7.0" level="project" />
-    <orderEntry type="library" name="Maven: com.stormpath.sdk:stormpath-sdk-impl:0.7.0" level="project" />
+    <orderEntry type="library" name="Maven: com.stormpath.sdk:stormpath-sdk-api:0.8.0" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.6.6" level="project" />
+    <orderEntry type="library" name="Maven: com.stormpath.sdk:stormpath-sdk-httpclient:0.8.0" level="project" />
+    <orderEntry type="library" name="Maven: com.stormpath.sdk:stormpath-sdk-impl:0.8.0" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.11" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.11" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.2.2" level="project" />

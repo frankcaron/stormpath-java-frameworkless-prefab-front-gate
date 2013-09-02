@@ -8,7 +8,7 @@
 
     <filter>
         <filter-name>AuthFilter</filter-name>
-        <filter-class>StormpathShiroJavaApp.Controllers.Login.AuthFilter</filter-class>
+        <filter-class>StormpathFrameworklessJavaApp.Controllers.Login.AuthFilter</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>AuthFilter</filter-name>
@@ -17,7 +17,7 @@
 
     <servlet>
     <servlet-name>LoginProcessor</servlet-name>
-    <servlet-class>StormpathShiroJavaApp.Controllers.Login.LoginProcessorServlet</servlet-class>
+    <servlet-class>StormpathFrameworklessJavaApp.Controllers.Login.LoginProcessorServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -27,7 +27,7 @@
 
     <servlet>
         <servlet-name>RegProcessor</servlet-name>
-        <servlet-class>StormpathShiroJavaApp.Controllers.Registration.RegProcessorServlet</servlet-class>
+        <servlet-class>StormpathFrameworklessJavaApp.Controllers.Registration.RegProcessorServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -37,7 +37,7 @@
 
     <servlet>
         <servlet-name>EditProcessor</servlet-name>
-        <servlet-class>StormpathShiroJavaApp.Controllers.Edit.EditProcessorServlet</servlet-class>
+        <servlet-class>StormpathFrameworklessJavaApp.Controllers.Edit.EditProcessorServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
