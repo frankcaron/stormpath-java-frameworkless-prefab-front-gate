@@ -39,12 +39,12 @@ public class EditProcessorServlet extends HttpServlet {
             session.setAttribute("Account", accountEdited);
 
             //Redirect to site page
-            String site = "/site/main.jsp";
+            String site = "/protected/main.jsp";
             res.setStatus(res.SC_ACCEPTED);
             res.sendRedirect(site);
         } else {
             //Redirect back to log in page and note the error
-            String site = "/site/edit.jsp?edit=false";
+            String site = "/protected/edit.jsp?edit=false";
             res.setStatus(res.SC_ACCEPTED);
             res.sendRedirect(site);
         }

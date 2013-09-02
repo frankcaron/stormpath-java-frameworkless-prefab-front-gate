@@ -15,6 +15,9 @@ import com.stormpath.sdk.resource.ResourceException;
 import com.stormpath.sdk.tenant.Tenant;
 
 import java.util.Map;
+import java.util.Properties;
+import java.io.FileInputStream;
+import java.io.IOException;
 
 /**
  * Created with IntelliJ IDEA.
@@ -30,47 +33,55 @@ import java.util.Map;
 
 public class APICommunicator {
 
+    //Config Vars
     private String apiKey;
     private String applicationURL;
     private String directoryURL;
 
+    //Stormpath Vars
+    private Client client;
+    private DataStore dataStore;
+    private Tenant tenant;
+    public Application application;
+    private Directory directory;
+
+    //Init
     public APICommunicator() {
-         /*
-        //Load up properties to connect
-        InputStream is = getServletContext().getResourceAsStream("application.properties");
-        Properties p  = new Properties();
+
+        //Read in the properties file
+        Properties prop = new Properties();
+
         try {
-            p.load(is);
-            this.apiKey = p.getProperty("apiKey");
-            this.applicationURL = p.getProperty("applicationURL");
-            System.out.println("Api Key: " + this.apiKey);
-            is.close();
-        } catch (Exception e) {
-            System.out.println("IOError: " + e);
+            //load a properties file
+            prop.load(APICommunicator.class.getClassLoader().getResourceAsStream("/application.properties"));
+            apiKey = prop.getProperty("apiKey");
+            applicationURL = prop.getProperty("applicationURL");
+            directoryURL = prop.getProperty("directoryURL");
+
+        } catch (IOException ex) {
+            ex.printStackTrace();
         }
-        */
 
-        this.applicationURL = "https://api.stormpath.com/v1/applications/5gFCU2FrexxBG4ZVNxXHVX";
-        this.apiKey = "/.stormpath/apiKey.properties";
-        this.directoryURL = "https://api.stormpath.com/v1/directories/5gGJeswnJXUWsRJfJOOd0p";
+        //Construct a client
+        this.client = new ClientBuilder().setApiKeyFileLocation(this.apiKey).build();
 
+        //Instatiate tenant, datastore, and application objects
+        this.dataStore = this.client.getDataStore();
+        this.tenant = this.client.getCurrentTenant();
+        this.application = this.dataStore.getResource(this.applicationURL, Application.class);
+        this.directory = this.client.getDataStore().getResource(this.directoryURL, Directory.class);
     }
 
+    //Function to create a new application if one doesn't
+    //already exist. Purely demonstrative; not used.
     public Application createApplication () {
 
-        String userHome = System.getProperty("user.home");
-        String path = userHome + this.apiKey;
-        Client client = new ClientBuilder().setApiKeyFileLocation(path).build();
-        DataStore dataStore = client.getDataStore();
+        Application newApplication = this.client.getDataStore().instantiate(Application.class);
+        newApplication.setName("Application Name");
+        newApplication.setDescription("Application Description");
 
-        Tenant tenant = client.getCurrentTenant();
-
-        Application application = client.getDataStore().instantiate(Application.class);
-        application.setName("Application Name");
-        application.setDescription("Application Description");
-
-        CreateApplicationRequest myRequest = Applications.newCreateRequestFor(application).createDirectory().build();
-        tenant.createApplication(myRequest);
+        CreateApplicationRequest myRequest = Applications.newCreateRequestFor(newApplication).createDirectory().build();
+        this.tenant.createApplication(myRequest);
 
         return null;
 
@@ -79,17 +90,10 @@ public class APICommunicator {
     //Helper function to authenticate an account
     public Account processLogin(String username, String password) {
 
-        //Target the properties file on my local and connect to Stormpath
-        String userHome = System.getProperty("user.home");
-        String path = userHome + this.apiKey;
-        Client client = new ClientBuilder().setApiKeyFileLocation(path).build();
-        DataStore dataStore = client.getDataStore();
-        Application application = dataStore.getResource(this.applicationURL, Application.class);
-
         //Request authentication
         try {
             AuthenticationRequest request = new UsernamePasswordRequest(username,password);
-            AuthenticationResult result = application.authenticateAccount(request);
+            AuthenticationResult result = this.application.authenticateAccount(request);
             Account myAccount = result.getAccount();
 
             //Return retrieved account
@@ -105,15 +109,8 @@ public class APICommunicator {
     //Helper function to create an account
     public String createAccount( Map params) {
 
-        //Target the properties file on my local and connect to Stormpath
-        String userHome = System.getProperty("user.home");
-        String path = userHome + this.apiKey;
-        Client client = new ClientBuilder().setApiKeyFileLocation(path).build();
-        DataStore dataStore = client.getDataStore();
-        Directory directory = client.getDataStore().getResource(this.directoryURL, Directory.class);
-
         //Compose account object
-        Account account = client.getDataStore().instantiate(Account.class);
+        Account account = this.client.getDataStore().instantiate(Account.class);
         account.setGivenName(((String [])params.get("firstName"))[0]);
         account.setSurname(((String [])params.get("lastName"))[0]);
         account.setUsername(((String [])params.get("username"))[0]);
@@ -133,20 +130,13 @@ public class APICommunicator {
 
     public Account editAccount(String href, Map params) {
 
-        //Target the properties file on my local and connect to Stormpath
-        String userHome = System.getProperty("user.home");
-        String path = userHome + this.apiKey;
-        Client client = new ClientBuilder().setApiKeyFileLocation(path).build();
-        Account account = client.getDataStore().getResource(href, Account.class);
+        Account account = this.client.getDataStore().getResource(href, Account.class);
 
         //Update the account object
         account.setGivenName(((String [])params.get("firstName"))[0]);
         account.setSurname(((String [])params.get("lastName"))[0]);
         account.setUsername(((String [])params.get("username"))[0]);
         account.setEmail(((String [])params.get("email"))[0]);
-
-
-
 
         //Register account
         try {

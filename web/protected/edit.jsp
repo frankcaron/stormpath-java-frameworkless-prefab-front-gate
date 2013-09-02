@@ -11,7 +11,7 @@
 
 <html>
 <head>
-    <title>Stormpath - Sample Java App</title>
+    <title>Stormpath - Sample Framework-free Java App</title>
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/style/style.css" />
 </head>
 <body>
@@ -46,7 +46,7 @@
             <tr>
                 <td colspan="2" class="loginForm-controls">
                     <input type="submit" name="submit" value="Save" />
-                    <input type="button" name="cancel" value="Cancel" onclick="window.location='main.jsp'" />
+                    <input type="button" name="cancel" value="Cancel" onclick="window.location='/protected/main.jsp'" />
                 </td>
             </tr>
         </table>

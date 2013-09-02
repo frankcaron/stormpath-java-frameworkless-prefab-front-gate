@@ -9,7 +9,7 @@
 <%@ page session="false" %>
 <html>
   <head>
-    <title>Stormpath - Sample Java App</title>
+    <title>Stormpath - Sample Framework-free Java App</title>
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/style/style.css" />
   </head>
   <body>
@@ -40,7 +40,7 @@
                     </tr>
                     <tr>
                         <td colspan="2" class="loginForm-controls">
-                            Need an account? <a href="register.jsp">Click here</a>.
+                            <a href="register.jsp">Need an account?</a> | <a href="reset.jsp">Forgot your password?</a>
                         </td>
                     </tr>
                 </table>

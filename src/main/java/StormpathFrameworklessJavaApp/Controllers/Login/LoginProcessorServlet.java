@@ -38,7 +38,7 @@ public class LoginProcessorServlet extends HttpServlet {
             session.setAttribute("AccountHref", retrievedAccount.getHref());
 
             //Redirect to site page
-            String site = "/site/main.jsp";
+            String site = "/protected/main.jsp";
             res.setStatus(res.SC_ACCEPTED);
             res.sendRedirect(site);
         } else {

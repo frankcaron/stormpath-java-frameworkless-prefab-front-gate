@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/StormpathShiroJavaApp.iml" filepath="$PROJECT_DIR$/StormpathShiroJavaApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StormpathFrameworklessSampleApp.iml" filepath="$PROJECT_DIR$/StormpathFrameworklessSampleApp.iml" />
     </modules>
   </component>
 </project>

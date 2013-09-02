@@ -23,10 +23,9 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@page language="java" session="true" %>
-<%@ page import="com.stormpath.sdk.account.*" %>
 <html>
 <head>
-    <title>Stormpath - Sample Shiro App</title>
+    <title>Stormpath - Sample Framework-free Java App</title>
     <link rel="stylesheet" type="text/css" href="../static/style/style.css" />
 </head>
 <body>

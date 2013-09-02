@@ -11,7 +11,7 @@
 
 <html>
 <head>
-    <title>Stormpath - Sample Shiro App</title>
+    <title>Stormpath - Sample Framework-free Java App</title>
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/style/style.css" />
 </head>
 <body>
@@ -44,7 +44,7 @@
                 </tr>
                 <tr>
                     <td colspan="2" class="loginForm-controls">
-                        <a href="${pageContext.request.contextPath}/site/edit.jsp">Edit Profile</a> | <a href="${pageContext.request.contextPath}/site/reset.jsp">Reset Password</a> | <a href="${pageContext.request.contextPath}/site/logout.jsp">Log Out</a>
+                        <a href="${pageContext.request.contextPath}/protected/edit.jsp">Edit Profile</a> | <a href="${pageContext.request.contextPath}/protected/logout.jsp">Log Out</a>
                     </td>
                 </tr>
             </table>

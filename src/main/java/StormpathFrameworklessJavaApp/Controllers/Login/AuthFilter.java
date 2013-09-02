@@ -44,7 +44,7 @@ public class AuthFilter implements Filter {
             if(session.getAttribute("Account")==null) {
                 //No session was found. Redirect to login page.
                 ((HttpServletResponse)(servletResponse)).sendRedirect("/index.jsp?session=expired");
-            } else if (path.equals("/site/logout.jsp")) {
+            } else if (path.equals("/protected/logout.jsp")) {
                 session.invalidate();
                 ((HttpServletResponse)(servletResponse)).sendRedirect("/index.jsp");
             } else {
