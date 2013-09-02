@@ -42,7 +42,7 @@ This readme assumes that you have already set up a developer account with Stormp
 
 ### Dependencies
 
-This impl relies on the following, which can all be installed from Rubygems.org using `gem install` individually or by via `bundle`. 
+This impl relies on the following, which can be installed via maven:
 
 * [Stormpath Java SDK](https://github.com/stormpath/stormpath-sdk-java)
 * javax.servlet.*
