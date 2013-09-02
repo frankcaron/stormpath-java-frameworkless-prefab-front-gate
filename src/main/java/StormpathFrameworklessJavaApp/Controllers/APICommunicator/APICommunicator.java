@@ -33,6 +33,9 @@ import java.io.IOException;
 
 public class APICommunicator {
 
+    //Set the Singleton instance
+    private static final APICommunicator instance = new APICommunicator();
+
     //Config Vars
     private String apiKey;
     private String applicationURL;
@@ -42,12 +45,11 @@ public class APICommunicator {
     private Client client;
     private DataStore dataStore;
     private Tenant tenant;
-    public Application application;
+    private Application application;
     private Directory directory;
 
     //Init
-    public APICommunicator() {
-
+    private APICommunicator() {
         //Read in the properties file
         Properties prop = new Properties();
 
@@ -70,6 +72,16 @@ public class APICommunicator {
         this.tenant = this.client.getCurrentTenant();
         this.application = this.dataStore.getResource(this.applicationURL, Application.class);
         this.directory = this.client.getDataStore().getResource(this.directoryURL, Directory.class);
+    }
+
+    //Public constructor
+    public static APICommunicator getInstance() {
+        return instance;
+    }
+
+    //Return the application object when necessary
+    public Application getApplication() {
+        return this.application;
     }
 
     //Function to create a new application if one doesn't

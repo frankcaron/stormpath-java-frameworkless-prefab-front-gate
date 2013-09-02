@@ -20,7 +20,7 @@ import javax.servlet.*;
 
 public class LoginProcessorServlet extends HttpServlet {
 
-    private APICommunicator loginHelper = new APICommunicator();
+    private APICommunicator loginHelper = APICommunicator.getInstance();
 
     public void doPost (HttpServletRequest req,
                        HttpServletResponse res)

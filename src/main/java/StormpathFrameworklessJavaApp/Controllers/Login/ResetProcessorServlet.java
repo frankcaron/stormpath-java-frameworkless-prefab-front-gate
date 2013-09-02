@@ -22,7 +22,7 @@ import javax.servlet.*;
 
 public class ResetProcessorServlet extends HttpServlet {
 
-    private APICommunicator resetHelper = new APICommunicator();
+    private APICommunicator resetHelper = APICommunicator.getInstance();
 
     public void doPost (HttpServletRequest req,
                         HttpServletResponse res)
@@ -36,7 +36,7 @@ public class ResetProcessorServlet extends HttpServlet {
         if (req.getParameter("email") != null && req.getParameter("sptoken") == null) {
             try {
                 //Store the account in the HTTP session
-                this.resetHelper.application.sendPasswordResetEmail(req.getParameter("email"));
+                this.resetHelper.getApplication().sendPasswordResetEmail(req.getParameter("email"));
 
                 //Redirect to reset page and note success
                 String site = "/reset.jsp?email=true";
@@ -64,7 +64,7 @@ public class ResetProcessorServlet extends HttpServlet {
             if (req.getParameter("password").equals(req.getParameter("password_confirm")) && !req.getParameter("password").equals("")) {
                 try {
                     //Store the account in the HTTP session
-                    Account account = this.resetHelper.application.verifyPasswordResetToken(req.getParameter("sptoken"));
+                    Account account = this.resetHelper.getApplication().verifyPasswordResetToken(req.getParameter("sptoken"));
                     account.setPassword(req.getParameter("password"));
                     account.save();
 

@@ -22,7 +22,7 @@ import java.io.IOException;
 
 public class RegProcessorServlet extends HttpServlet {
 
-    private APICommunicator regHelper = new APICommunicator();
+    private APICommunicator regHelper = APICommunicator.getInstance();
 
     public void doPost (HttpServletRequest req,
                         HttpServletResponse res)

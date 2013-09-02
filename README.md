@@ -51,7 +51,7 @@ This impl relies on the following, which can all be installed from Rubygems.org 
 
 The application's design relies on plain old Java Servlets and Filters. The project's web.xml file maps out HTTP requests to the various controllers.
 
-The *APICommunicator* controller is the chief shared resource for all of the other controllers. It is responsible for handling all of the instantiation and resource management of Stormpath SDK objects, most importantly the client. It also reads from the 
+The `APICommunicator` controller is the chief shared resource for all of the other controllers. It is the singleton responsible for handling all of the instantiation and resource management of Stormpath SDK objects, most importantly the client. It also reads from the external properties file.
 
 The rest of the controllers are clearly demarketed: 
 

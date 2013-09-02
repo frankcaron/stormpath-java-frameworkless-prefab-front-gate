@@ -20,7 +20,7 @@ import javax.servlet.*;
 
 public class EditProcessorServlet extends HttpServlet {
 
-    private APICommunicator editHelper = new APICommunicator();
+    private APICommunicator editHelper = APICommunicator.getInstance();
 
     public void doPost (HttpServletRequest req,
                         HttpServletResponse res)
