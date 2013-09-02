@@ -18,7 +18,7 @@ The following capabilities have been implemented:
 
 ### Assumptions
 
-This readme assumes that you have already set up a developer account with Stormpath and know how to retrieve your API key and your application URL. If you don't know how to do this, refer to [Stormpath's REST Quickstart Guide](http://www.stormpath.com/docs/java/quickstart).
+This readme assumes that you have already set up a developer account with Stormpath and know how to retrieve your API key and your application URL. If you don't know how to do this, refer to [Stormpath's Java Quickstart Guide](http://www.stormpath.com/docs/java/quickstart).
 
 ### Screenshot
 ![alt tag](impl.png)
@@ -53,14 +53,14 @@ The application's design relies on plain old Java Servlets and Filters. The proj
 
 The `APICommunicator` controller is the chief shared resource for all of the other controllers. It is the singleton responsible for handling all of the instantiation and resource management of Stormpath SDK objects, most importantly the client. It also reads from the external properties file.
 
-The rest of the controllers are clearly demarketed: 
+The rest of the controllers are clearly demarcated: 
 
 * `LoginProcessorServlet` deals with log in and session requests
 * `RegProcessorServlet` deals with account creation
 * `EditProcessorServlet` deals with account updates
-* `ResetProcessorServlet` deals with password resets (both sending out emails and setting new passwords)
+* `ResetProcessorServlet` deals with password resets (both triggering the email and setting the new pass)
 
-Lastly, for security, the `AuthFilter` has been implemeted. This filter is used before all calls to /protected/* which require authentication. 
+Lastly, for security, the `AuthFilter` has been implemeted to ensure auth for protected resources. This filter is used before all calls to /protected/*. 
 
 ### Disclosure
 
