@@ -1,7 +1,7 @@
-Frameworkless Stormpath Java App
+Stormpath Java Prefab Front Gate
 ===============================
 
-A framework-free Java implementation of Stormpath's Java SDK within a basic user-centric web application.
+A framework-free Java implementation of Stormpath's Java SDK within a basic user-centric web application. This prefabricated front gate can easily be plugged in to your existing web application to add user auth and management.
 
 ### Prelude
 
