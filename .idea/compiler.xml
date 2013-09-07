@@ -22,6 +22,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="stormpath-java-frameworkless-prefab-front-gate" />
         <module name="StormpathFrameworklessSampleApp" />
         <module name="StormpathShiroJavaApp" />
       </profile>

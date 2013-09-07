@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/StormpathFrameworklessSampleApp.iml" filepath="$PROJECT_DIR$/StormpathFrameworklessSampleApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stormpath-java-frameworkless-prefab-front-gate.iml" filepath="$PROJECT_DIR$/stormpath-java-frameworkless-prefab-front-gate.iml" />
     </modules>
   </component>
 </project>
